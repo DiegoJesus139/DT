@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+    background-size: cover; /* Garante que o fundo cubra toda a tela */
+    background-attachment: fixed; /* Faz o fundo permanecer fixo durante o scroll */
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 8px;
+}
+
+.titulo{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;  
+
+}
+
+.subtitulo{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bolder;  
+}
